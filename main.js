@@ -12,7 +12,7 @@ function validEmail(inputText) {
   let mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if (inputText.value.match(mailFormat)) {
     // console.log("True Valed Email");
-    Swal.fire("Good job!", "An email has been sent", "success");
+    // Swal.fire("Good job!", "An email has been sent", "success"); // Sweet Alert
     input.value = "";
     errorBtn.style.display = "none";
     validMsg.style.display = "none";
