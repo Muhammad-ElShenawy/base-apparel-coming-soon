@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="CSS/main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Sweet Alert  -->
+    <link
+      rel="stylesheet"
+      href="node_modules/sweetalert2/dist/sweetalert2.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <section class="section-01">
+          <div class="sec-countainer">
+            <header>
+              <div class="logo">
+                <img src="images/logo.svg" alt="" />
+              </div>
+              <div class="content-img">
+                <img src="images/hero-mobile.jpg" alt="" />
+              </div>
+            </header>
+            <div class="text">
+              <h1>
+                WE'RE <br />
+                COMING <br />
+                SOON
+              </h1>
+              <p>
+                Hello fellow shoppers! We're currently building our new fashion
+                store. Add your email below to stay up-to-date with
+                announcements and our launch deals.
+              </p>
+            </div>
+
+            <div class="form">
+              <form action="">
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  autocomplete="off"
+                />
+                <button aria-label="Submit" class="btn" id="btn">
+                  <img src="images/icon-arrow.svg" alt="" />
+                </button>
+              </form>
+
+              <div class="error" id="error">
+                <img src="images/icon-error.svg" alt="" />
+              </div>
+            </div>
+            <p class="wrong-msg" id="wrong-email">
+              Please provide a valid email
+            </p>
+          </div>
+        </section>
+
+        <section class="section-02">
+          <img src="images/hero-desktop.jpg" alt="" />
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>
